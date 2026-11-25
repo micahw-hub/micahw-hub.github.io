@@ -214,7 +214,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  font-size: clamp(23px, 2.35vw, 46px);
+  font-size: clamp(21px, 1.9vw, 40px);
   font-weight: 300;
   line-height: 0.96;
   letter-spacing: -0.035em;
@@ -222,6 +222,7 @@ a {
 
 .identity-meta p {
   margin: 0;
+  overflow-wrap: anywhere;
 }
 
 .intro-media {
